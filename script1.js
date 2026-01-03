@@ -19,7 +19,7 @@ for (var i = 0; i < deleteBtns.length; i++) {
     };
 }
 
-// 4 ✅ FIXED ID
+// 4 
 var img = document.getElementById("image-hover");
 
 img.onmouseover = function () {
@@ -30,7 +30,7 @@ img.onmouseout = function () {
     img.src = "https://bunny-wp-pullzone-3xue3q6yzy.b-cdn.net/wp-content/uploads/2024/11/EM-BLOG-what-does-a-data-scientist-do-2054965214.png";
 };
 
-// 5 ✅ FIXED BUTTON IDs
+// 5 
 var count = 0;
 
 document.getElementById("increaseBtn").onclick = function () {
